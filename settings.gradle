@@ -11,6 +11,6 @@ pluginManagement {
 
 includeBuild('modules/DataFixerUpper') {
     dependencySubstitution {
-        substitute module('com.mojang:datafixerupper-cadmium') with project(':')
+        substitute module('com.mojang:datafixerupper') with project(':')
     }
 }
